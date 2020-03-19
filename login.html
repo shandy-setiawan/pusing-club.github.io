@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./login-style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="top-navbar">
+      <div class="logo">
+        <img src="./logo.png" />
+      </div>
+      <div class="menubar">
+        <a href="index.html">Beranda</a>
+        <a href="about-us.html">Tentang Kami</a>
+        <a href="package.html">Paket Kami</a>
+        <a href="contact-us.html">Kontak Kami</a>
+        <a href="login.html">Masuk/Daftar</a>
+      </div>
+    </div>
+
+    <div class="card" id="card1">
+      <div class="formWrapper">
+        <h1>Login</h1>
+        <form>
+          <input
+            type="text"
+            placeholder="Username"
+            class="inputCustom"
+          /><br /><br />
+          <input
+            type="password"
+            placeholder="Password"
+            class="inputCustom"
+          /><br /><br />
+          <button type="button" onclick="alert('Selamat datang kembali!')" class="button-ok"> Login</button><br /><br />
+          <input type="checkbox" name="simpan" id="simpan" class="simpan" />
+          <label for="simpan" class="agree-term"
+            ><span><span></span></span>Simpan</label
+          >
+          <div>
+            <a href="#card2" class="signup-link">Untuk pengguna baru</a>
+          </div>
+        </form>
+      </div>
+      <div class="imageWrapper">
+        <img 
+        id="login-image"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT6Z7rziDVSjMNBxmUSXCddvk12J55zzZ1stTsOBavHbmm6u-BL"
+        />
+      </div>
+    </div>
+
+    <div class="card2">
+      <div class="imageWrapper">
+        <img
+          id="signup-image"
+          src="https://cdns.klimg.com/merdeka.com/i/w/news/2019/12/02/1130352/670x335/gadget-gadget-ini-bisa-jadi-pengaman-saat-traveling.jpg"
+          alt="traveling around the world"
+        />
+      </div>
+      <div class="formWrapper">
+        <h1>Sign Up</h1>
+        <form>
+          <input
+            type="text"
+            placeholder="Username"
+            class="inputCustom"
+          /><br /><br />
+          <input
+            type="password"
+            placeholder="Password"
+            class="inputCustom"
+          /><br /><br />
+          <input
+            type="password"
+            placeholder="Repeat Password"
+            class="inputCustom"
+          /><br /><br />
+          <button type="button" onclick="alert('Selamat bergabung!')" class="button-ok"> Register</button><br /><br />
+          <label for="agree-term" class="agree-term"
+          ><input type="checkbox"
+                    ><span><span></span></span>Saya menyetujui
+                    <a href="#" class="term-service">Terms of service</a></label
+                  ><br>
+          <div>
+            <a href="#card1" class="signup-link">Saya sudah jadi member</a
+            ><br /><br />
+          </div>
+          <span class="social-label">Atau daftar menggunakan</span>
+          <a href="https://www.facebook.com/"
+          ><img src="https://img.icons8.com/android/20/000000/facebook-new.png"/>
+          <a href="https://twitter.com/"
+          ><img src="https://img.icons8.com/android/24/000000/twitter.png"/>
+          <a href="https://www.google.com/"
+          ><img src="https://img.icons8.com/material-rounded/24/000000/google-logo.png"/>
+          </a>
+        </form>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <div id="footer">
+        <div id="footer_content">
+            <img src="">
+            <p> &copy; Copyright Pusing Club 2020</p>
+        </div></div>
+    </div>
+  </footer>
+</html>

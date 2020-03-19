@@ -1,0 +1,147 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: Lato;
+  background-color: #e3fdfd;
+}
+
+h1 {
+  text-align: center;
+}
+
+.menubar {
+  text-align: right;
+  margin-top: 45px;
+  padding-right: 100px;
+}
+
+#top-navbar {
+  top: 0;
+  width: 100%;
+  position: fixed;
+  background-color: #71c9ce;
+  z-index: 10;
+  height: 100px;
+  overflow: hidden;
+}
+.logo {
+  color: white;
+  padding: 14px 16px;
+  display: inline-block;
+  text-align: center;
+  float: left;
+}
+.logo img {
+  height: 75px;
+  margin-left: 100px;
+  text-align: center;
+}
+#top-navbar .menubar a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  padding-bottom: 28px;
+  text-decoration: none;
+  font-size: 17px;
+}
+#top-navbar .menubar a:hover {
+  border-bottom: 6px solid #ffe400;
+}
+.card {
+  display: flex;
+  box-shadow: 5px 5px 8px #71c9ce;
+  border: solid 1px #a6e3e9;
+  width: 600px;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #cbf1f5;
+}
+
+.card2 {
+  display: flex;
+  box-shadow: 5px 5px 8px #71c9ce;
+  border: solid 1px #a6e3e9;
+  width: 600px;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #cbf1f5;
+}
+
+.formWrapper {
+  flex: 1;
+}
+
+.imageWrapper {
+  flex: 1;
+}
+
+#signup-image {
+  width: 85%;
+  margin-top: 110px;
+  margin-left: 20px;
+}
+
+.inputCustom {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  width: 70%;
+}
+
+.signup-link {
+  margin-left: 170px;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.social-label {
+  display: inline;
+}
+
+.agree-term {
+  font-size: 12px;
+}
+
+#login-image {
+  margin-top: 20px;
+}
+
+.social-label {
+  font-size: 12px;
+}
+
+.button-ok:hover {
+  background-color: #71c9ce;
+  font-size: 12px;
+}
+
+#footer {
+  height: 50px;
+  background: #71c9ce;
+  position: relative;
+  width: 100%;
+  display: inline-block;
+  vertical-align: bottom;
+  overflow: hidden;
+}
+#footer img {
+  float: left;
+  width: 16px;
+  margin: 20px 0px;
+}
+#footer_content {
+  display: inline-block;
+  padding-left: 100px;
+}
+#footer p {
+  display: inline-block;
+  margin-left: 5px;
+}
